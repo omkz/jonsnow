@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "jonsnow"
+
+Jonsnow::CLI.start(ARGV)

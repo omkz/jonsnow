@@ -1,8 +1,15 @@
 # frozen_string_literal: true
 
 require_relative "jonsnow/version"
+require "thor"
 
 module Jonsnow
-  class Error < StandardError; end
-  # Your code goes here...
+  class CLI < Thor
+    desc "hello", "hello world command"
+
+    def hello
+      puts "Hello ganteng"
+    end
+  end
+
 end
