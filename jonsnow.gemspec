@@ -9,14 +9,10 @@ Gem::Specification.new do |spec|
   spec.email         = ["omenkzz@gmail.com"]
 
   spec.summary       = "Ruby app to kill the night king"
-  spec.homepage      = "https://github.com/omkz/"
+  spec.homepage      = "https://github.com/omkz/jonsnow"
   spec.license       = "MIT"
-  spec.required_ruby_version = ">= 2.4.0"
-
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
-
+  spec.required_ruby_version = ">= 3.0.2"
   spec.metadata["homepage_uri"] = spec.homepage
- 
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
